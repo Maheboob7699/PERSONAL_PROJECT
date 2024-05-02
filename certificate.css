@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 30px;
+    height: 500px;
+    width: 70%;
+    border: 2px solid rgb(235, 245, 100);
+    background-color: rgb(240, 209, 175);
+    
+
+}
+.img1{
+    background-image: url("img1.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    
+}
+.size1{
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.size2{
+    font-size: 20px;
+    text-align: center;
+}
+.img2{
+    background-image: url("img2.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2{
+text-align: center;
+}
+.line{
+    height: 40px;
+    width: 500px;
+    border-bottom: 1px solid black;
+   margin-left: 200px;
+  
+}
+.para{
+    margin-top:20px;
+    margin-left: 100px;
+    width: 80%;
+    text-align: center;
+}
+
+
+/* section-2 */
+.line2{
+    width: 100px;
+    border-bottom: 1px solid black;
+}
+.line3{
+    width: 150px;
+    border-bottom: 1px solid black;
+}
+.section-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec2-1{
+    margin-top: 60px;
+}
+
+
+.sec2-2{
+    margin-top: 60px;
+}
+.marg1{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.marg2{
+    margin-left: 25px;
+    margin-top: 10px;
+}
