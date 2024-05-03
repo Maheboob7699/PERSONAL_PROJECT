@@ -1,0 +1,29 @@
+.container{
+     background-color: brown; 
+    height: 300px;
+    width :400px;
+    border: 2px solid black;
+    text-align: center;
+   
+}
+
+button{
+    font-size: 25px;
+}
+
+#input{
+    height: 30px;
+    width: 350px;
+    margin-top: 10px;
+    color:black;
+}
+
+.calculator{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px;
+    gap: 10px;
+    justify-content: center;
+    
+
+}
