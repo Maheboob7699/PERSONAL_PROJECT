@@ -1,0 +1,178 @@
+
+.navbar{
+    display: flex;
+
+}
+
+
+h1{
+    font-family: poppins;
+}
+
+
+
+.img1{
+    background-image: url("img1.png");
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+}
+
+.nav-box1{
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+
+}
+.persn{
+    
+    margin-left: 3px;
+    font-size: 23px;
+    font-family: poppins;
+
+}
+.nav-box2{
+    display: flex;
+margin-left: 600px;
+margin-top: 7px;
+gap: 20px;
+}
+
+p{
+    width: 400px;
+}
+
+.img2{
+    background-image: url("img2.png");
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(232, 227, 236);
+}
+
+button{
+    height: 50px;
+    width: 150px;
+   background-color: rgb(70, 117, 245);
+   border: none;
+   font-size: 20px;
+   color: aqua;
+}
+.section1-box1{
+    margin-top: 100px;
+}
+
+.img3{
+    background-image: url("img3.png");
+    background-size: cover;
+    height: 500px;
+    width: 600px;
+} 
+
+.para2{
+    width: 400px;
+    margin-top: 5px;
+    font-family: poppins;
+}
+.persn2{
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: poppins;
+}
+
+.section-3{
+    display: flex;
+}
+.section3-box1{
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+.btn2{
+    background-color: #e4c971;
+    color: white;
+    margin-top: 40px;
+    font-family: poppins;
+    height: 65px;
+}
+
+.section4-box1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900px;
+    font-family: poppins;
+
+}
+.section4-box2{
+    margin-top: 5px;
+    text-align: center;
+    font-family: poppins;
+    
+}
+
+.section4{
+    height: 300px;
+}
+.section5{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#7bd3de;
+    height: 200px;
+    color: white;
+}
+
+.sec5-box{
+    text-align: center;
+    font-size: 30px;
+    font-family: poppins;
+}
+
+.footer-box1{
+    width: 300px;
+}
+
+#input-2{
+    margin-top: 6px;
+    height: 20px;
+    width: 200px;
+}
+
+.footer{
+
+
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+
+
+.footer-box{
+    font-size: 20px;
+    font-family: poppins;
+    margin-top: 30px;
+}
+
+.footer-box1{
+    color: #777777;
+}
+.icon{
+    display: flex;
+   
+   
+}
+.icon-logo{
+    margin-top: 3px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
