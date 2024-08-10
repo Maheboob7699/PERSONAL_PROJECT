@@ -55,13 +55,13 @@ let play=document.querySelector(".play-btn");
 
 
 let index=0;
-let sum=0;
+let sum=1;
 
-      question.innerHTML=Quizz[0].q;
-      option1.innerHTML=Quizz[0].a;
-      option2.innerHTML=Quizz[0].b;
-      option3.innerHTML=Quizz[0].c;
-      option4.innerHTML=Quizz[0].d;
+      question.innerHTML=Quizz[index].q;
+      option1.innerHTML=Quizz[index].a;
+      option2.innerHTML=Quizz[index].b;
+      option3.innerHTML=Quizz[index].c;
+      option4.innerHTML=Quizz[index].d;
     
 
       function checkAns(){
@@ -84,22 +84,25 @@ let sum=0;
         })
       }
 
-next.addEventListener("click",function(){
+next.addEventListener("click",nextBtn);
+function nextBtn(){
+
 
     let checkedAns=checkAns();
+
     if(checkedAns==Quizz[index].ans)
     {
         sum++;
+        console.log(sum); 
     }
-
-
-    diselect();
 
     index++;
 
+    diselect();
+
  
   
-    if(index < Quizz.length){
+    if(index <  Quizz.length){
         
       question.innerHTML=Quizz[index].q;
       option1.innerHTML=Quizz[index].a;
@@ -111,18 +114,15 @@ next.addEventListener("click",function(){
 
     else{
     score.innerHTML=`Total score ${sum}/${Quizz.length}`;
-    
       play.style.display="block";
 
     }
-
-    play.addEventListener("click",function(){
-        next();
-    })
-
     
-        
+}
 
-  
-})
+play.addEventListener("click",playBtn);
+function playBtn(){
+ 
 
+
+}
