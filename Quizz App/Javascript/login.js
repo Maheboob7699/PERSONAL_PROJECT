@@ -61,11 +61,16 @@ loginBtn.addEventListener("click",function(){
     
   }
 
+  else if(email.value.length<=6){
+    emailResult.innerHTML="usernmae is Smaller than 6";
+    console.log("usernmae is Smaller than 6")
+  }
+
   else if( email.value.length>=16)
   {
     emailResult.innerHTML="usernmae is greater than 12";
-    //  email.value="";
-     console.log(email.value);
+     email.value="";
+    
   }
 
   if(password.value=="")
@@ -73,6 +78,10 @@ loginBtn.addEventListener("click",function(){
       passResult.innerHTML=" Password is Empty";
      
       
+    }
+
+    else if(password.value.length<=6){
+      passResult.innerHTML="Password is Smaller than 6";
     }
   
     else if( password.value.length>=12)
@@ -87,6 +96,7 @@ loginBtn.addEventListener("click",function(){
       window.location.href="quizz.html";
       localStorage.setItem("email",email.value);
      localStorage.setItem("password", password.value);
+     
       
     }
 
