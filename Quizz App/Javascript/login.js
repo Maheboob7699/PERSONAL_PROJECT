@@ -66,12 +66,6 @@ loginBtn.addEventListener("click",function(){
     console.log("usernmae is Smaller than 6")
   }
 
-  else if( email.value.length>=16)
-  {
-    emailResult.innerHTML="usernmae is greater than 12";
-     email.value="";
-    
-  }
 
   if(password.value=="")
     {
@@ -93,13 +87,13 @@ loginBtn.addEventListener("click",function(){
 
     else
     {
-      window.location.href="quizz.html";
-      localStorage.setItem("email",email.value);
-     localStorage.setItem("password", password.value);
+      window.location.href="signup.html";
+      let userValue = JSON.stringify(email.value);
+      let userPassword = JSON.stringify(password.value);
+      localStorage.setItem("Email",userValue);
+     localStorage.setItem("Password", userPassword);
      
-      
     }
 
-  
   
 })
