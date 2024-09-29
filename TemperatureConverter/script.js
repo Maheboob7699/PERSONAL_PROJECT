@@ -23,8 +23,6 @@ convertBtn.addEventListener("click", function () {
         tempValue.innerHTML = `${tempResult} <sup>°F</sup>`
         inputValue.value="";
 
-
-
     }
 
 
