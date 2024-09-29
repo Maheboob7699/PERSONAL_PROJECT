@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+
+}
+
+.background-container{
+background-color: blue;
+display: flex;
+flex-direction: column;
+align-items: center;
+height:400px;
+width: 300px;
+margin-top: 40px;
+margin-left: 350px;
+border-radius: 10px;
+}
+
+.button-1{
+height: 40px;
+width: 130px;
+border-radius: 10px;
+border: none;
+background-color: goldenrod;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+margin-top: 20px;
+}
+
+.button-2{
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    background-color: rgb(133, 206, 50);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+.background-data{
+    height: 100px;
+    width: 200px;
+    background-color: bisque;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
