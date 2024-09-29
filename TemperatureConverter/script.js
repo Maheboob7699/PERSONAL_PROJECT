@@ -12,9 +12,12 @@ convertBtn.addEventListener("click", function () {
 
     let selectOption = select.value;
 
+    if(inputValue.value ==""){
+        alert("please fill the Input");
+        return;
+    }
 
-
-    if (selectOption === "celcius") {
+    else if (selectOption === "celcius") {
 
         tempResult = (inputValue.value * 9 / 5) + 32;
         tempValue.innerHTML = `${tempResult} <sup>°F</sup>`
