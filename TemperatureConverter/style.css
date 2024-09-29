@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.tempContainer{
+    background-color: antiquewhite;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+
+.tempData{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    margin-left: 40px;
+
+}
+
+h3{
+    color: rgb(23, 216, 26);
+    padding-left: 30px;
+}
+
+#inputValue{
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid green;
+}
+
+#selectTemp{
+    height: 40px;
+    width: 200px;
+    margin-left: 30px;
+    border-radius: 10px;
+    
+}
+
+.convertBtn{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+
+
+.tempConvertValue{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(24, 222, 136);
+    /* margin-left: 40px;
+    padding-left: 180px;
+    padding-top: 140px; */
+     
+}
+
+.tempValue{
+    margin-top:100px;
+    margin-left: 100px;
+}
