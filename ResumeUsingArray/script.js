@@ -1,4 +1,5 @@
 
+
 let Resume = {
     name: "Murdi Maheboob",
     contact: {
@@ -60,4 +61,4 @@ let Resume = {
     ]
 };
 
-console.log(Resume);
+console.log(resume);
