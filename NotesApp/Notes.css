@@ -1,0 +1,57 @@
+.note-container{
+  
+    background-color: gray;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px ;
+    margin-top: 30px;
+    margin-left: 400px;
+
+}
+
+.note-container i {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.add-note{
+    display: none;
+    background-color: greenyellow;
+    height: 200px;
+    width: 300px;
+   position: fixed;
+   left: 40%;
+   top: 30%;
+
+}
+
+textarea{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.add-btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left:80px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 7px;
+}
+.note-store{
+    display: flex;
+    gap:20px;
+}
+
+
+
+.note-data{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+
+    border: 1px solid black;
+}
+
