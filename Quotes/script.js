@@ -46,7 +46,6 @@ let quotes = [
      }
 ];
 
-// Store quotes in local storage as a JSON string
 localStorage.setItem('quotes', JSON.stringify(quotes));
 let localQuotes = JSON.parse(localStorage.getItem('quotes'));
 
