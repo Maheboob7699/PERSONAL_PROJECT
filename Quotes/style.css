@@ -1,0 +1,66 @@
+.quoteContainer{
+    background-color: rgb(170, 221, 221);
+    height: 300px;
+    width:400px;
+    margin-top:100px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+
+.quoteSubContainer{
+    position: relative;
+    top: 10px;
+    background-color: black;
+    border-radius: 6px;
+    left: 7px;
+    height: 100px;
+    width: 95%;
+}
+.quotes{
+    color: white;
+    width: 98%;
+}
+.author{
+    color: white;
+    margin-top: 10px;
+    padding-left: 300px;
+}
+
+.generateBtn{
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: orange;
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+}
+
+.addQuotesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.addQuotesContainer div p{
+    padding-left: 30px;
+}
+
+#quoteInput{
+    height: 30px;
+    width: 170px;
+}
+
+#authorInput{
+    height: 30px;
+    width: 170px;
+}
+.addQuoteBtn{
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: orange;
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+}
